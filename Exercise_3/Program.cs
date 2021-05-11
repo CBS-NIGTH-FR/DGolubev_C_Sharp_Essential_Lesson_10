@@ -32,7 +32,7 @@ namespace Exercise_3
             dictionary.Add(3, "chair");
             dictionary.Add(4, "window");
             dictionary.Add(5, "car");
-            for (int i = 1; i < dictionary.Counter; i++)
+            for (int i = 1; i <= dictionary.Counter; i++)
             {
                 Console.WriteLine(dictionary[i]);
             }
